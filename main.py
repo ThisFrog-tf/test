@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-import sys  # <--- Этот импорт нигде не используется, из-за чего flake8 выдаст ошибку (красный билд)
+import sys  
 
 app = FastAPI()
 

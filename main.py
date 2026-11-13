@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-import sys  
+
 
 app = FastAPI()
 
